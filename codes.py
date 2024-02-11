@@ -1,4 +1,3 @@
-codes = {
     2001 PSA01 : stack detection of HP 
     2002 PSB01L : skew detection (L) 
     2003 PSB01C : skew detection (C)
@@ -75,7 +74,6 @@ codes = {
     2102 PSS06 : stacker6 bill remaining detection (3) 
     2103 PSS07 : stacker7 bill remaining detection (3) 
     2104 PSS08 : stacker8 bill remaining detection (3)
-   
     2111 PSD10L : RJ1 bill remaining of inlet (L)
     2112 PSD10R : RJ1 bill remaining of inlet (R)
     2113 PSD11L : RJ2 bill remaining of inlet (L)
@@ -88,7 +86,6 @@ codes = {
     2129 PSE38 : stacker11 approaching detection 
     2130 PSE39 : stacker12 branch timing detection  
     2132 PSE40 : stacker12 approaching detection 
-    
     2133 PSE41 : stacker9 bill remaining detection (1) 
     2134 PSE42 : stacker9 bill remaining detection (2)
     2135 PSE43 : stacker10 bill remaining detection (1) 
@@ -97,7 +94,6 @@ codes = {
     2138 PSE46 : stacker11 bill remaining detection (2) 
     2139 PSE47 : stacker12 bill remaining detection (1) 
     2140 PSE48 : stacker12 bill remaining detection (2)
-    
     2141 PSS09 : stacker9 bill remaining detection (3) 
     2142 PSS10 : stacker10 bill remaining detection (3)
     2143 PSS11 : stacker11 bill remaining detection (3)
@@ -110,7 +106,6 @@ codes = {
     2159 PSE38 : stacker15 approaching detection 
     2160 PSE39 : stacker16 branch timing detection  
     2162 PSE40 : stacker16 approaching detection 
-    
     2163 PSE41 : stacker13 bill remaining detection (1) 
     2164 PSE42 : stacker13 bill remaining detection (2)
     2165 PSE43 : stacker14 bill remaining detection (1) 
@@ -119,29 +114,20 @@ codes = {
     2168 PSE46 : stacker15 bill remaining detection (2) 
     2169 PSE47 : stacker16 bill remaining detection (1) 
     2170 PSE48 : stacker16 bill remaining detection (2)
-    
     2171 PSS13 : stacker13 bill remaining detection (3) 
     2172 PSS14 : stacker14 bill remaining detection (3)
     2173 PSS15 : stacker15 bill remaining detection (3)
     2174 PSS16 : stacker16 bill remaining detection (3) 
     2901 MDCD01,MD1_CNT : rotate error of RJ transfer motor 
-    2902 MDCE01,ME1_CNT : rotate error of intermediate into foreign matter 
-    transfer motor (1)
-    2903 MDCE02,ME2_CNT : rotate error of intermediate 
-    transfer motor (2) 
-    2918 MDCE03,ME3_CNT : rotate error of intermediate
-    transfer motor (3) actuator defection
-    2919 MDCE04,ME4_CNT : rotate error of intermediate 
-    transfer motor (4) 
+    2902 MDCE01,ME1_CNT : rotate error of intermediate into foreign matter transfer motor (1)
+    2903 MDCE02,ME2_CNT : rotate error of intermediate transfer motor (2) 
+    2918 MDCE03,ME3_CNT : rotate error of intermediatetransfer motor (3) 
+    2919 MDCE04,ME4_CNT : rotate error of intermediate transfer motor (4) 
     2904 MDCD01,MDCD01LD : lock motor of RJ transfer 
-    2905 MDCE01,MDDE01LD : lock motor of intermediate into foreign matter 
-    transfer (1)
-    2906 MDCE02,MDCE02LD : lock motor of intermediate 
-    transfer (2) 
-    2920 MDCE03,MDDE03LD : lock motor of intermediate
-    transfer (3) actuator defection
-    2921 MDCE04,MDCE04LD : lock motor of intermediate 
-    transfer (4) 
+    2905 MDCE01,MDDE01LD : lock motor of intermediate into foreign matter transfer (1)
+    2906 MDCE02,MDCE02LD : lock motor of intermediate transfer (2) 
+    2920 MDCE03,MDDE03LD : lock motor of intermediatetransfer (3) 
+    2921 MDCE04,MDCE04LD : lock motor of intermediate transfer (4) 
     2907 SMB01 : rotate error of feeding motor 
     2908 SMD01,PID01 : rotate error of RJ1 fan motor 
     2909 SMD02,PID03 : rotate error of RJ2 fan motor into foreign matter 
@@ -153,7 +139,6 @@ codes = {
     2915 SME06,PIE13 : rotate error of stacker6 fan motor 
     2916 SME07,PIE15 : rotate error of stacker7 fan motor 
     2917 SME08,PIE17 : rotate error of stacker8 fan motor
-    actuator defection
     2922 SME09,PIE21 : rotate error of stacker9 fan motor 
     2923 SME10,PIE23 : rotate error of stacker10 fan motor
     2924 SME11,PIE25 : rotate error of stacker11 fan motor 
@@ -201,7 +186,6 @@ codes = {
     3052 PSE22 : stacker7 approaching detection 
     3053 PSE23 : stacker8 branch timing detection  
     3055 PSE24 : stacker8 approaching detection 
-    
     3081 PSE33 : stacker9 branch timing detection 
     3083 PSE34 : stacker9 approaching detection
     3084 PSE35 : stacker10 branch timing detection 
@@ -210,7 +194,6 @@ codes = {
     3089 PSE38 : stacker11 approaching detection 
     3090 PSE39 : stacker12 branch timing detection 
     3092 PSE40 : stacker12 approaching detection
-    
     3093 PSE49 : stacker13 branch timing detection 
     3095 PSE50 : stacker13 approaching detection
     3096 PSE51 : stacker14 branch timing detection
@@ -223,7 +206,6 @@ codes = {
     3030 PSE04 : stacker2 approaching detection 
     3033 PSE06 : stacker3 approaching detection
     3036 PSE08 : stacker4 approaching detection 
-    
     3045 PSE18 : stacker5 approaching detection 
     3048 PSE20 : stacker6 approaching detection 
     3051 PSE22 : stacker7 approaching detection
@@ -339,7 +321,6 @@ codes = {
     3332 PSE22 : stacker7 approaching detection 
     3333 PSE23 : stacker8 branch timing detection  
     3334 PSE24 : stacker8 approaching detection 
-    
     3335 PSE33 : stacker9 branch timing detection 
     3336 PSE34 : stacker9 approaching detection
     3337 PSE35 : stacker10 branch timing detection 
@@ -348,7 +329,6 @@ codes = {
     3340 PSE38 : stacker11 approaching detection 
     3341 PSE39 : stacker12 branch timing detection 
     3342 PSE40 : stacker12 approaching detection
-    
     3327 PSE49 : stacker13 branch timing detection 
     3328 PSE50 : stacker13 approaching detection
     3329 PSE51 : stacker14 branch timing detection 
@@ -376,7 +356,6 @@ codes = {
     5011 PSE06 : stacker3 approaching detection 
     5012 PSE07 : stacker4 branch timing detection 
     5013 PSE08 : stacker4 approaching detection
-    
     5014 PSE17 : stacker5 branch timing detection
     5015 PSE18 : stacker5 approaching detection 
     5016 PSE19 : stacker6 branch timing detection  
@@ -393,7 +372,6 @@ codes = {
     5027 PSE38 : stacker11 approaching detection
     5028 PSE39 : stacker12 branch timing detection  
     5029 PSE40 : stacker12 approaching detection 
-     
     5030 PSE49 : stacker13 branch timing detection 
     5031 PSE50 : stacker13 approaching detection 
     5032 PSE51 : stacker14 branch timing detection 
@@ -415,7 +393,6 @@ codes = {
     5060 PSE06 : stacker3 approaching detection 
     5061 PSE07 : stacker4 branch timing detection 
     5062 PSE08 : stacker4 approaching detection
-    
     5063 PSE17 : stacker5 branch timing detection
     5064 PSE18 : stacker5 approaching detection 
     5065 PSE19 : stacker6 branch timing detection  
@@ -432,7 +409,6 @@ codes = {
     5076 PSE38 : stacker11 approaching detection
     5077 PSE39 : stacker12 branch timing detection  
     5078 PSE40 : stacker12 approaching detection 
-     
     5079 PSE49 : stacker13 branch timing detection 
     5080 PSE50 : stacker13 approaching detection 
     5081 PSE51 : stacker14 branch timing detection 
@@ -499,7 +475,6 @@ codes = {
     detection to stacker12 branch timing detection 
     5129 PSE39～PSE40 : from stacker12 branch timing
     detection to stacker12 approaching detection 
-     
     5130 PSE39～PSE49 : from stacker12 branch timing
     detection to stacker13 branch timing detection 
     5131 PSE49～PSE50 : from stacker13 branch timing 
@@ -578,7 +553,6 @@ codes = {
     detection to stacker12 branch timing detection 
     5329 PSE39～PSE40 : from stacker12 branch timing
     detection to stacker12 approaching detection 
-     
     5330 PSE39～PSE49 : from stacker12 branch timing
     detection to stacker13 branch timing detection 
     5331 PSE49～PSE50 : from stacker13 branch timing 
@@ -610,7 +584,6 @@ codes = {
     5362 PSE06 : stacker3 approaching detection
     5363 PSE07 : stacker4 branch timing detection 
     5364 PSE08 : stacker4 approaching detection
-    
     5365 PSE17 : stacker5 branch timing detection  
     5366 PSE18 : stacker5 approaching detection
     5367 PSE19 : stacker6 branch timing detection 
@@ -627,7 +600,6 @@ codes = {
     5378 PSE38 : stacker11 approaching detection
     5379 PSE39 : stacker12 branch timing detection  
     5380 PSE40 : stacker12 approaching detection 
-     
     5381 PSE49 : stacker13 branch timing detection 
     5382 PSE50 : stacker13 approaching detection 
     5383 PSE51 : stacker14 branch timing detection 
@@ -649,7 +621,6 @@ codes = {
     5411 PSE06 : stacker3 approaching detection 
     5412 PSE07 : stacker4 branch timing detection 
     5413 PSE08 : stacker4 approaching detection
-    
     5414 PSE17 : stacker5 branch timing detection
     5415 PSE18 : stacker5 approaching detection 
     5416 PSE19 : stacker6 branch timing detection  
@@ -666,7 +637,6 @@ codes = {
     5427 PSE38 : stacker11 approaching detection
     5428 PSE39 : stacker12 branch timing detection  
     5429 PSE40 : stacker12 approaching detection 
-     
     5430 PSE49 : stacker13 branch timing detection 
     5431 PSE50 : stacker13 approaching detection 
     5432 PSE51 : stacker14 branch timing detection 
@@ -788,7 +758,6 @@ codes = {
     6129 PSE38 : stacker11 approaching detection 
     6130 PSE39 : stacker12 branch timing detection  
     6132 PSE40 : stacker12 approaching detection 
-    
     6133 PSE41 : stacker9 bill remaining detection (1) 
     6134 PSE42 : stacker9 bill remaining detection (2)
     6135 PSE43 : stacker10 bill remaining detection (1) 
@@ -809,7 +778,6 @@ codes = {
     6159 PSE54 : stacker15 approaching detection 
     6160 PSE55 : stacker16 branch timing detection  
     6162 PSE56 : stacker16 approaching detection 
-    
     6163 PSE57 : stacker13 bill remaining detection (1) 
     6164 PSE58 : stacker13 bill remaining detection (2)
     6165 PSE59 : stacker14 bill remaining detection (1) 
@@ -1004,7 +972,6 @@ codes = {
     8335 PIE26 : stacker 11 full detection 
     8336 PIE27 : stacker 12 rotate fan detection
     8337 PIE28 : stacker 12 full detection 
-    
     8338 PIE31 : stacker 13 rotate fan detection
     8339 PIE32 : stacker 13 full detection
     8340 PIE33 : stacker 14 rotate fan detection 
@@ -1045,10 +1012,8 @@ codes = {
     error 
     8694 STCPU_FANERR : unit3 sfan rotate error 
     8702 CNNKMAIN :in MAINCPU board(MAINCPU)  Turn power off and on.
-    
     8704 CNNKBV : in MAINCPU board(BV) 
     8705 CNNKARC : in MAINCPU board(ARC) 
-   
     8706 CNNKSTDR_1 : in MAINCPU board (DISP board) (DISP board)
     (STDR1,LED2_1)
     8707 CNNKSTDR_2 : in MAINCPU board (security board) (security board)
@@ -1161,4 +1126,3 @@ codes = {
     9901 power failure in processing 
     9902 turn OFF power in processing
     9903 receive AC command 
-}
